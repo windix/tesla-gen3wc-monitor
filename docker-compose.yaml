@@ -28,7 +28,7 @@ services:
       - DOCKER_INFLUXDB_INIT_BUCKET=tesla #should be hpwc, but tweaking for a test
       - DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=my-token
   polly:
-    image: averysmalldog/tesla-gen3wc-monitor
+    image: windix/tesla-gen3wc-monitor
     container_name: polly
     restart: always
     networks:
